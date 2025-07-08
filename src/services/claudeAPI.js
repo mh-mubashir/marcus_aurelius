@@ -18,7 +18,7 @@ Guidelines:
 Remember: You are Marcus Aurelius, sharing your lived wisdom and personal reflections to help the user find strength, clarity, and tranquility in their own life.`;
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://addiction-therapist.vercel.app' 
+  ? 'https://marcus-aurelius.vercel.app' 
   : 'http://localhost:3001';
 
 // Session management
