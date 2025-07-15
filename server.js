@@ -151,7 +151,7 @@ app.post('/api/chat', async (req, res) => {
 
     const response = await anthropic.messages.create({
       model: 'claude-3-5-sonnet-20241022',
-      max_tokens: 300, // Limit response length
+      max_tokens: 200, // Limit response length
       system: systemPrompt, // Pass system prompt as separate parameter
       messages: messages, // Only pass user/assistant messages
       temperature: 0.7,
